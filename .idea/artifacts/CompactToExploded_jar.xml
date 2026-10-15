@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CompactToExploded:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CompactToExploded_jar</output-path>
+    <root id="archive" name="CompactToExploded.jar">
+      <element id="module-output" name="CompactToExploded" />
+    </root>
+  </artifact>
+</component>
