@@ -45,7 +45,7 @@ import java.util.Map;
  *    参考读取程序 CompactToExploded 解析该名得到基准行/列，再以 行=基准+i、列=基准+j 还原绝对坐标，
  *    因此名称必须写块基准坐标（128 的整数倍），才能互逆往返。
  */
-public class ExplodedToCompact2 {
+public class ExplodedToCompactArcGIS {
 
     private static final String _BUNDLE_DATA_SUFFIX = ".bundle";
     private static final String _BUNDLE_IDX_SUFFIX = ".bundlx";
@@ -324,7 +324,7 @@ public class ExplodedToCompact2 {
         // 紧凑瓦片输出根目录（将在其 _alllayers 下生成 Lxx bundle）
         String sePath = "D:\\Data\\SXBaseMap2CompactV1\\Layer";
 
-        ExplodedToCompact2 ec = new ExplodedToCompact2();
+        ExplodedToCompactArcGIS ec = new ExplodedToCompactArcGIS();
         System.out.println("begin...");
         ec.exploded2compact(scPath, sePath);
         System.out.println("ok.");
